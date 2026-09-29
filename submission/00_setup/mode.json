@@ -1,6 +1,24 @@
 {
-  "current_slice": "C0",
+  "current_slice": "B3-edge",
   "support_prefill": false,
   "support_slice": "",
-  "prefill_box_ids": []
+  "prefill_box_ids": [
+    "adasind_123090.jpg:1",
+    "adasind_123090.jpg:2"
+  ],
+  "members": [
+    "oanh",
+    "thuy",
+    "tien"
+  ],
+  "assignments": {
+    "oanh": "B3-edge",
+    "thuy": "B3-mid",
+    "tien": "B4-edge"
+  },
+  "self": "oanh",
+  "slice": "B3-edge",
+  "degrade": [
+    "k12"
+  ]
 }

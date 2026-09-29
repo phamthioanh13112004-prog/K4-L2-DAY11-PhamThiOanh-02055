@@ -1,0 +1,9 @@
+round: r1_craft
+slice: B3-edge
+sha256: cd87d5b56d927c5f2c0c777739dd08a9c82522435569cacb93595cf0e0dae595
+code: CD87-D5B5
+locked_at: 2026-09-29T12:48:09+07:00
+shapes: box=17, polygon=10
+prefill_kept: 1
+prefill_edited: 1
+new: 15

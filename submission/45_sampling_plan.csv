@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,24,"Dòng xe đông, xe hai bánh cắt ngang",Mẫu normal ở nhiều thời điểm và tuyến khác nhau; kiểm vật nhỏ gần tâm ảnh.
+front,hard,32,"Fisheye mép trên, ngược sáng, vật bị che",Ưu tiên giao cắt xe và người tại rìa; giữ ảnh gốc cùng thông số camera.
+rear,normal,22,"Lùi xe, người đi phía sau","Lấy cảnh thường từ nhiều vị trí đỗ, tránh nhiều frame liên tiếp cùng lượt lùi."
+rear,hard,28,"Vật sát cản sau, vùng che bởi thân xe",Review độc lập người và xe bị cắt biên trước khi đưa vào gold.
+left,normal,18,Xe máy vượt sát sườn trái,Giữ các cảnh normal ở nhiều tốc độ và ánh sáng để đối chiếu nhãn Bike.
+left,hard,30,"Seam trái, che khuất và vật bị cắt",Tăng hard vì một vật có thể hiện ở hai camera; giữ timestamp và calibration.
+right,normal,18,Người và xe ở lề phải,"Lấy cảnh thường từ nhiều hành trình, không nhân bản ca gần giống."
+right,hard,28,"Seam phải, gương/thân xe lẫn vật ngoài",Soát ego_body và vật thật sát biên; cần chứng cứ camera kề bên.
